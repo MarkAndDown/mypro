@@ -1,13 +1,20 @@
 # mypro
 我的项目
+
+
+
+
+;;xxx==1
+
 Loop{
+
     Sleep, 1000
     outX1 := ComVar()
     outY1 := ComVar()
     dm_ret := dm.Capture(1580,320,1650,370,"E:\\桌面文件\\flask\\tlbb\\pic\\zuobiaoxxxx.bmp")
     dm_ret := dm.FindStr(1580,320,1650,370,"镖车位置","fff263-101010",1.0,outX1.ref, outY1.ref)
     if (dm_ret = 0) {
-
+    
 	intX1 := outX1[]
 	intY1 := outY1[]
      click_ret := dm.MoveTo(intX1+120, intY1)
@@ -55,5 +62,6 @@ Loop{
        }Else{
  
        }
+       
 }
 return 
