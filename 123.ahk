@@ -6,8 +6,8 @@ if(A_PtrSize=8)
     Run,%dir%\autohotkeyu32.exe %A_ScriptFullPath%
     ExitApp
 }
-reg_code:="mh84909b3bf80d45c618136887775ccc90d27d7"
-ver_info:= "mb72nn0d1s2iuk67"
+reg_code:="xxx"
+ver_info:= "xxx"
 ; 注册大漠插件
 
 ; 获取目标窗口句柄
